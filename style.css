@@ -1,3 +1,30 @@
-#over {
-  z-index: 1;
+html {
+  scroll-behavior: smooth;
+}
+.container-fluid {
+  font-family: 'Quicksand', sans-serif;
+}
+.social {
+  width: 100px;
+  height: 100px;
+}
+hr {
+  border: 2px solid #2B2744;
+  width: 100px;
+}
+#color-tag {
+  color: #BCB34F;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+.color {
+  background-color: rgba(90,83,119,.83);
+  color: white;
+}
+p {
+  text-align: center;
 }
